@@ -1,0 +1,78 @@
+<form action="" method='POST' style="background: cadetblue;">
+    <h3 align="center" style="color: rgb(13, 13, 14);"><span>FORM PEMESANAN BARANG</span></h3>
+    <style>
+        td {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        
+    </style>
+    
+<table>
+    <tr>
+        <td>Nama Barang</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Kirim Gambar<br/>
+        <input type="file" name="Gambar">
+        </td>
+    </tr>
+    <tr>
+        <td>Deskripsi Barang</td>
+        <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td>Jumlah Barang</td>
+        <td><input type="number"></td>
+    </tr>
+
+    <tr>
+        <td>Nama Pengguna</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Nomor ID</td>
+        <td><input type="tel" pattern="\d\d\d\d\d\d" name="nomor ID" placeholder="999999" required /></td>
+    </tr>
+    <tr>
+        <td>Bank</td>
+        <td><select>
+            <option>Bank Tabungan Negara (BTN)</option>
+            <option>Bank Indonesia (BI)</option>
+            <option>Bank Mandiri</option>
+            <option>Bank Negara Indonesia (BNI)</option>
+            <option>Bank Rakyat Indonesia (BRI)</option>
+            <option>Bank Centra Asia (BCA)</option>
+            <option>Bank Syariah Indonesia (BSI)</option>
+            <option>Bank MayBank Indonesia</option>
+            <option>Bank Bukkopin Indonesia</option>
+            <option>Bank Cimb Niaga</option>
+            <option>Bank Danamon</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Alamat Email</td>
+        <td><input type="email" name="email" placeholder="your email..." ></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox">Kirim Informasi ini ke Email Anda</td>
+    </tr>
+    <tr>
+        <td>Nomor Telepon</td>
+        <td><input type="tel" pattern="+\d\d\d\d\d\d\d\d\d\d\d" name="nomor telepon" placeholder="+62xxxxx" required /></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox">Kirim Informasi ini ke Nomor Telepon Anda</td>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>
+        <td><input type="submit" name="submit" value="Order Now" /></td>
+        <td><input type="reset" name="reset" value="Cancel" /></td>
+    </tr>
+</table>
+
+
+
+</form>
